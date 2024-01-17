@@ -2,6 +2,7 @@
 require 'header.php';
 $metaTitle='CV';
 ?>
+<link rel="stylesheet" href="cv.css">
 <html>
 <body>
 <div class="background">

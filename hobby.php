@@ -2,6 +2,7 @@
     require 'header.php';
     $metaTitle='Hobby';
 ?>
+    <link rel="stylesheet" href="hobby.css">
 <div>
     <section class="titre2">
         Hobby

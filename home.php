@@ -1,42 +1,41 @@
-<?php
+    <?php
     $metaTitle='homepage';
     require 'header.php';
-?>
-<link rel="stylesheet" href="home.css">
-<title>Home O-C</title>
-</head>
+    ?>
+    <link rel="stylesheet" href="home.css">
+    <title><?php $metaTitle?></title>
 
-<body class="body">
-<div class="background">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
+    <body class="body">
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
     <span></span>
     <span></span>
     <span></span>
@@ -67,3 +66,4 @@
     </section>
 </div>
 </body>
+<?php require 'footer.php'; ?>

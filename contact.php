@@ -2,6 +2,7 @@
     require 'header.php';
 $metaTitle='Contact';
 ?>
+    <link rel="stylesheet" href="contact.css">
     <div>
 <section class="titre">
     Questionnaire ?
