@@ -1,1 +1,3 @@
-Test bosse maintenant !
+<footer>
+    © 2024 Olinger
+</footer>
