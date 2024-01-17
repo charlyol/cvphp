@@ -1,1 +1,2 @@
-Test bosse maintenant !
+<?php phpinfo(); ?>
+
