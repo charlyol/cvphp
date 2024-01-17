@@ -1,8 +1,11 @@
 <?php
-    require 'header.php';
-    $metaTitle='Hobby';
+$metaTitle='Hobby';
+require 'header.php';
+
 ?>
     <link rel="stylesheet" href="hobby.css">
+    <title><?php echo $metaTitle?></title>
+<body>
 <div>
     <section class="titre2">
         Hobby
@@ -31,4 +34,5 @@
         </section>
     </div>
 </div>
+</body>
 <?php require 'footer.php'; ?>

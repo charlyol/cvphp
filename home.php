@@ -3,7 +3,7 @@
     require 'header.php';
     ?>
     <link rel="stylesheet" href="home.css">
-    <title><?php $metaTitle?></title>
+    <title><?php echo $metaTitle?></title>
 
     <body class="body">
     <div class="background">
