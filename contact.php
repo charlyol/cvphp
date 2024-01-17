@@ -1,8 +1,8 @@
 <?php
     require 'header.php';
-    $metaTitle='Contact';
+$metaTitle='Contact';
 ?>
-<div>
+    <div>
 <section class="titre">
     Questionnaire ?
 </section>
