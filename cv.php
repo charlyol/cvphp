@@ -1,8 +1,11 @@
 <?php
-require 'header.php';
 $metaTitle='CV';
+require 'header.php';
+
 ?>
-<html>
+<title><?php echo $metaTitle?></title>
+<link rel="stylesheet" href="cv.css">
+<html lang="">
 <body>
 <div class="background">
     <span></span>
@@ -51,7 +54,7 @@ $metaTitle='CV';
         <a href="mailto:charly.olinger@le-campus-numerique.fr">cha.olinger@gmail.com</a>
     </div>
     <div class="photo1">
-        <img src="Assets/photo_de_profil.jpg" alt="photo_de_profil" title="photo_de_profil">
+        <img src="https://avatars.githubusercontent.com/u/147928338?v=4" alt="photo_de_profil" title="photo_de_profil">
         <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
     </div>
 </section>
@@ -113,7 +116,7 @@ $metaTitle='CV';
         <ol>
             <li>
                 <p>
-                    <a href=hobby.html>Sport</a>
+                    <a href=hobby.php>Sport</a>
                 </p>
             </li>
             <li>
@@ -235,7 +238,5 @@ $metaTitle='CV';
         </table>
     </div>
 </section>
-
 </body>
-
 </html>
