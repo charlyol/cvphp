@@ -17,9 +17,9 @@
 </section>
 <section class="nav">
     <nav>
-        <a href="home.html">Home page</a>
-        <a href="hobby.html">Hobby</a>
-        <a href="contact.html">Contact</a>
+        <a href="home.php">Home page</a>
+        <a href="hobby.php">Hobby</a>
+        <a href="contact.php">Contact</a>
     </nav>
 </section>
 </body>
