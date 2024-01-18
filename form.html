@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<form action="traitement.php" method="post" name="Renseignement" target="_blank"
+      autocomplete="on">
+    <div>
+        <label for="Nom">Input : </label>
+        <input id="Nom" name="name" placeholder="Type texte ..." required>
+    </div>
+    <div>
+        <textarea name="commentaire" rows="8" cols="80"
+              placeholder="Commentaire, à vous de voir ..."></textarea>
+    </div>
+    <input type="submit" value="Envoi du formulaire">
+</form>
+</body>
+</html>
