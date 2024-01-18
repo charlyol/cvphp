@@ -4,7 +4,7 @@ require 'header.php';
 
 ?>
 <title><?php echo $metaTitle?></title>
-<link rel="stylesheet" href="cv.css">
+<link rel="stylesheet" href="../css/cv.css">
 <html lang="">
 <body>
 <div class="background">

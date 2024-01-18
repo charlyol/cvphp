@@ -1,13 +1,12 @@
 <?php
 $metaTitle='Hobby';
 require 'header.php';
-
 ?>
-    <link rel="stylesheet" href="hobby.css">
+    <link rel="stylesheet" href="../css/hobby.css">
     <title><?php echo $metaTitle?></title>
 <body>
 <div>
-    <section class="titre2">
+    <section class="hobby">
         Hobby
     </section>
     <section>

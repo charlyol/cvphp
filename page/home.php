@@ -1,8 +1,7 @@
     <?php
     $metaTitle='homepage';
-    require 'header.php';
     ?>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../css/home.css">
     <title><?php echo $metaTitle?></title>
 
     <body class="body">
@@ -51,17 +50,17 @@
 <div style="max-width: 400px; margin: 0 auto;">
     <section class="nav1">
         <div>
-            <a class="btn1" href="cv.php"><strong>Curriculum Vitae</strong></a>
+            <a class="btn1" href="index.php?page=cv"><strong>Curriculum Vitae</strong></a>
         </div>
     </section>
     <section class="nav2">
         <div>
-            <a class="btn2" href="hobby.php"><strong>Hobby</strong></a>
+            <a class="btn2" href="index.php?page=hobby"><strong>Hobby</strong></a>
         </div>
     </section>
     <section class="nav3">
         <div>
-            <a class="btn3" href="contact.php"><strong>Contact</strong></a>
+            <a class="btn3" href="index.php?page=contact"><strong>Contact</strong></a>
         </div>
     </section>
 </div>
