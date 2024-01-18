@@ -12,7 +12,7 @@ require 'header.php';
             Formulaire
         </section>
         <section>
-            <form class="quest" action="https://httpbin.org/post" method="post" name="Renseignement" target="_blank"
+            <form class="quest" action="" method="get" name="Renseignement" target="_blank"
                   autocomplete="on">
                 <div>
                     <label for="Nom">Nom</label> : <input id="Nom" name="name" placeholder="Entrez votre nom ..."
