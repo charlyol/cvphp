@@ -3,7 +3,7 @@ $metaTitle = 'Contact';
 require 'header.php';
 
 ?>
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <div>
         <section class="titre">
             Questionnaire ?

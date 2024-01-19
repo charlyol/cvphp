@@ -2,8 +2,12 @@
     informations suivantes :</p>
 
 <?php
-$name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
-echo ('le name est : ' . $name);
+$action = filter_input(INPUT_POST, 'action', FILTER_SANITIZE_SPECIAL_CHARS);
 $renseignement = filter_input(INPUT_POST, 'commentaire', FILTER_SANITIZE_SPECIAL_CHARS);
-echo ('le commentaire est : ' . $renseignement);
+
+if ($action==1){
+    include 'form.html';
+    header ('Location: resultat.php');
+    exit;
+}
 ?>
