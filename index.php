@@ -13,3 +13,4 @@ elseif ($page=='hobby'){
 elseif ($page=='home'){
     require './page/home.php';
 }
+else require './page/404.php'
