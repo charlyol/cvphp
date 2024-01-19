@@ -1,18 +1,10 @@
 <?php
-$metaTitle = 'Contact';
-require 'header.php';
-
+$metaTitle = 'contact';
+require './page/header.php';
 ?>
-    <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulaire de Contact</title>
-    </head>
     <body>
 
-    <form action="index.php?page=contact" method="post">
+    <form action="index.php?page=traitement" method="post">
         <label for="civilite">Civilité:</label>
         <select id="civilite" name="civilite">
             <option value="M">M.</option>
@@ -20,7 +12,7 @@ require 'header.php';
         </select>
 
         <br>
-
++
         <label for="nom">Nom:</label>
         <input type="text" id="nom" name="nom">
 
@@ -59,4 +51,4 @@ require 'header.php';
     </body>
     </html>
 
-<?php require 'footer.php'; ?>
+<?php require './page/footer.php'; ?>

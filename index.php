@@ -4,7 +4,7 @@ if ($page=='cv'){
     require './page/cv.php';
 }
 elseif ($page=='contact'){
-    require './page/contact.php';
+    require './form/contact.php';
 }
 
 elseif ($page=='hobby'){
@@ -12,5 +12,8 @@ elseif ($page=='hobby'){
 }
 elseif ($page=='home'){
     require './page/home.php';
+}
+elseif ($page=='traitement') {
+    require './form/traitement.php';
 }
 else require './page/404.php';
